@@ -2,13 +2,13 @@ package less05_operator;
 
 public class MyOper {
 	/*
-	 * ¿ì½İ¼ü£º 
-	 * 	main + alt_? = mainº¯Êı
+	 * å¿«æ·é”®ï¼š 
+	 * 	main + alt_? = mainå‡½æ•°
 	 *  syso + alt_? = System.out.println
-	 *  shift_enter = ×Ô¶¯»»ĞĞ
+	 *  shift_enter = è‡ªåŠ¨æ¢è¡Œ
 	 */
 	public static void main(String[] args) {
-		System.out.println("ÕâÊÇ¸öÊä³ö°¸Àı");
+		System.out.println("è¿™æ˜¯ä¸ªè¾“å‡ºæ¡ˆä¾‹");
 		System.out.println("hahahhahaha");
 		int a, b;
 		a = 100;
@@ -17,29 +17,29 @@ public class MyOper {
 		System.out.println(a + b);
 		System.out.println(a - b);
 		
-		//×¢Òâ±äÁ¿µÄÉùÃ÷ºÍ³õÊ¼»¯
+		//æ³¨æ„å˜é‡çš„å£°æ˜å’Œåˆå§‹åŒ–
 		int c = 5, d = 3;
 		System.out.println(c/d);
 		
 		int e = 7;
 		System.out.println(e/d);
-		//×¢ÊÍ¿ì½İ¼ü£º  ctr_?
-		//0²»ÄÜ±»ÕûÊı³ı
+		//æ³¨é‡Šå¿«æ·é”®ï¼š  ctr_?
+		//0ä¸èƒ½è¢«æ•´æ•°é™¤
 //		System.out.println(e/0);
 		
-		// Èç¹ûc/dÏëµÃµ½Ò»¸ö×¼È·µÄÊı×Ö
+		// å¦‚æœc/dæƒ³å¾—åˆ°ä¸€ä¸ªå‡†ç¡®çš„æ•°å­—
 		System.out.println(((double)c)/d);
 		
-		//¸¡µãÊı¿ÉÒÔ³ıÒÔ0.0
+		//æµ®ç‚¹æ•°å¯ä»¥é™¤ä»¥0.0
 		double f = 5.0;
-		System.out.println(f / 0.0);//µÃµ½Ò»¸öÌØÊâÖµ
+		System.out.println(f / 0.0);//å¾—åˆ°ä¸€ä¸ªç‰¹æ®Šå€¼
 		
 		
-		// È¡ÓàµÄÀı×Ó
+		// å–ä½™çš„ä¾‹å­
 		int a1 = 5, b1 = 3;
 		System.out.println(a1 % b1);
 		
-		//ÓÉ½á¹û¿ÉÖª£¬ ¸ºÊıÈ¡ÓàÊÇ°´ÕÕ¶¨ÒåµÃÀ´µÄ
+		//ç”±ç»“æœå¯çŸ¥ï¼Œ è´Ÿæ•°å–ä½™æ˜¯æŒ‰ç…§å®šä¹‰å¾—æ¥çš„
 		int a2 = -5, b2 = 3;
 		System.out.println(a2 % b2);
 	}
